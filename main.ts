@@ -43,7 +43,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 info.onLifeZero(function () {
     game.gameOver(false)
-    game.splash("Score: " + ("" + info.score()), "High Score: " + ("" + info.highScore()))
+    game.splash("Score: " + info.score(), "High Score: " + info.highScore())
 })
 let chance = 0
 let total = 0
